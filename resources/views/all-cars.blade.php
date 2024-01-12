@@ -204,7 +204,6 @@
 
             // perform delete functionality here
             $('.deleteBtn').on('click',function(){
-                var car_id = $(this).attr('data-id');
                 var car_name = $(this).attr('data-name');
                 // delete any car name
                 $('.car_name').html('');
