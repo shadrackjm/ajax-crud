@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Car;
+use App\Models\ChatModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -29,7 +30,7 @@ class CrudController extends Controller
             return response()->json(['msg' => $validator->errors()->toArray()]);
         }else{
             try {
-                $addCar = new Car;
+                $addCar = new ChatModel;
                 $addCar->name = $request->name;
                 $addCar->manufacture_year = $request->manufacture_year;
                 $addCar->engine_capacity = $request->engine_capacity;

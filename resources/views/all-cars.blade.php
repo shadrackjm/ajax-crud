@@ -211,8 +211,8 @@
                 // then add the new one..
                 $('.car_name').html(car_name);
 
-
-                $('.deleteButton').on('click',function(){
+            });
+            $('.deleteButton').on('click',function(){
                 var url = "{{ route('deleteCar','car_id')}}";
                 url = url.replace('car_id',car_id);
 
@@ -247,7 +247,6 @@
                     }
                 });
 
-            });
             });
             // edit car functionality..
             $('.editBtn').on('click',function(){
