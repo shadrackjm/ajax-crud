@@ -30,7 +30,7 @@ class CrudController extends Controller
             return response()->json(['msg' => $validator->errors()->toArray()]);
         }else{
             try {
-                $addCar = new ChatModel;
+                $addCar = new Car;
                 $addCar->name = $request->name;
                 $addCar->manufacture_year = $request->manufacture_year;
                 $addCar->engine_capacity = $request->engine_capacity;
