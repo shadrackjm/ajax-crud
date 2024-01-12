@@ -210,9 +210,9 @@
                 $('.car_name').html('');
                 // then add the new one..
                 $('.car_name').html(car_name);
-
             });
             $('.deleteButton').on('click',function(){
+                var car_id = $(this).attr('data-id');
                 var url = "{{ route('deleteCar','car_id')}}";
                 url = url.replace('car_id',car_id);
 
