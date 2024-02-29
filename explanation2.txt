@@ -1,57 +1,6 @@
 welcome back to code with SJM
 -----------------------------
 
-Today we will continue with part 2 for our Tutorial..
------------------------------------------------------
-"Laravel 10 CRUD(CREATE,READ,UPDATE,DELETE) Tutorial - AJAX
-with full validations.."
-
-part 2 covers:
---------------
-- UPDATE/EDIT 
-- DELETE
-
-so let's get started..
-
-before we begin with our today's task..
-
-I did some corrections in the last video..
-
-- automatic modal closeup..
-- page reload after successfully added new car..
-
-after finishing all the changes i have done the page should work as follows..
-
-so, that's it..
-
-now, let's continue with delete part..
-
-then, let's create a delete mechanism
-..
-
-now, try to delete a car..
-
-for edit, car functionality.. 
-
-start by creating a modal for editing car details..
-
-on pop of a modal you should display the car details filled in a form.
-
-now try to edit car details..
-
-so now you can add, read, update and delete any car..
-
-so, that's it.. 
-
-so friends, please if you find any challenge leave a comment in the comment section..
-
-also don't forget to like and share my videos..
-
-lastly subscribe to my youtube channel for more videos to come...
-
-Happy New Year To You All...
-
-Let 2024 be the best ever, more videos to come stay tuned....
 
 
 
