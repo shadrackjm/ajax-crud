@@ -1,14 +1,6 @@
 welcome back to code with SJM
 -----------------------------
 
-Today i will show you how to create a CRUD (CREATE,READ,UPDATE & DELETE) - 
-system in Laravel 10 using Ajax - Jquery with form validations.
 
-Edit and delete data
---------------------
-
-so let's get started..
-
-we continue with edit and delete cars from our list
 
 
